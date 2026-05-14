@@ -2,14 +2,11 @@
 
 **Lore:** True connection goes beyond teamwork; it requires becoming one. Balance your strength and share your burden.
 
-> [!WARNING]
-> **GITHUB** is the only official platform for this mod, all others are stolen uploads. Do not download them.
-
 ## Fusion: Shared Movement and Inventory Synchronization for NeoForge
 
 **Fusion** is a revolutionary NeoForge mod designed to bring a unique "Siamese-style" fusion system to Minecraft. If you've ever wanted to truly coordinate with a partner, this mod allows two players to fuse into a single shared entity. Unlike basic passenger mods, Fusion synchronizes movement, inventory, and interactions to create a unified gameplay experience.
 
-Compatible with **Minecraft NeoForge 1.21.4**, it is optimized for lag-free performance on servers and single-player worlds. Whether you are looking for a new way to play co-op or a unique challenge for your community, Fusion provides a seamless integration of shared player states.
+Compatible with **Minecraft NeoForge 1.21.4** Whether you are looking for a new way to play co-op or a unique challenge for your community, Fusion provides real fun
 
 This mod features advanced packet handling to ensure that every movement and interaction is synchronized perfectly between fused players.
 
@@ -29,26 +26,19 @@ This mod allows two players to combine their characters into one. It manages sha
 *   **Dynamic Visuals:** Custom rendering to represent the fused state of the players.
 
 ### Usage:
-
-To initiate fusion, both players must agree to the request using the custom command system.
-*   **To fuse:** Use `/fusion request <playername>` to invite another player.
-*   **To unfuse:** Use `/fusion separate` to return to individual entities.
-*   **Shared Control:** Both players can contribute to movement and actions, requiring real communication to master.
+Type /Fusion to see all the commands in game.
 
 ### Installation:
 
-1.  Download the `.jar` file.
+1.  Build Download the `.jar` file.
 2.  Place it in your Minecraft `mods` folder.
 3.  Ensure you have **NeoForge 1.21.4** installed.
 
 ### Known Limitations:
-
-*   **Camera Conflicts:** Some third-person camera mods may require specific configuration to work correctly with the fused entity.
-*   **Complex Interactions:** Very specific modded items that rely on unique player NBT data may behave unexpectedly when shared.
-
-This mod uses a clean implementation that avoids overriding base game classes, ensuring compatibility with other NeoForge mods.
-
+- The secondary player's Camera latency depends heavily on your network speed.
+- The secondary player cannot change hotbar slots yet, but can definately manage inventory tho.
 ---
+Although all the code is mine, I did take a little inspiration for the inventory sync implementation, only seeing how others did it, but made my own implementation anyways. That project was under MIT license.
 
 If you want to support me and donate a small amount, please consider this one time patreon donation (no subscription or membership):
 [**Join My Patreon**](https://www.patreon.com/areedelahi)
