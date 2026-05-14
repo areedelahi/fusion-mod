@@ -1,0 +1,12 @@
+{
+  "fusion.fused_player": "Fused Player",
+  "commands.fusion.fuse.success": "Successfully fused %s and %s!",
+  "commands.fusion.fuse.already_fused": "%s is already fused!",
+  "commands.fusion.fuse.same_player": "Cannot fuse a player with themselves!",
+  "commands.fusion.unfuse.success": "Successfully unfused %s!",
+  "commands.fusion.unfuse.not_fused": "%s is not currently fused!",
+  "commands.fusion.status.fused": "%s is fused with %s (Mode: %s, Orientation: %s)",
+  "commands.fusion.status.not_fused": "%s is not currently fused.",
+  "commands.fusion.setmode.success": "Set fusion control mode to %s",
+  "death.fusion.generic": "%s and %s died while fused"
+}

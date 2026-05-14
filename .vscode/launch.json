@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - fusion",
+        "order": 0
+      },
+      "projectName": "fusion",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/build/moddev/clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/build/moddev/clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dfusion%%/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "ClientData",
+      "presentation": {
+        "group": "Mod Development - fusion",
+        "order": 1
+      },
+      "projectName": "fusion",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/build/moddev/clientDataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/build/moddev/clientDataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dfusion%%/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - fusion",
+        "order": 2
+      },
+      "projectName": "fusion",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/build/moddev/gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/build/moddev/gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dfusion%%/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - fusion",
+        "order": 3
+      },
+      "projectName": "fusion",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/build/moddev/serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/build/moddev/serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dfusion%%/var/home/areedelahi/Documents/MCdevelopment/MinecraftMods/fusion/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
